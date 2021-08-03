@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/fruit" android:title="Fruits">
+        <menu>
+            <item android:id="@+id/mango" android:title="Mango"/>
+            <item android:id="@+id/apple" android:title="Apple"/>
+            <item android:id="@+id/grapes" android:title="Grapes"/>
+        </menu>
+    </item>
+    <item android:title="Movies" android:id="@+id/movies">
+    <menu>
+        <item android:id="@+id/iroMan" android:title="Iron Man"/>
+        <item android:id="@+id/avengers" android:title="Avengers"/>
+        <item android:id="@+id/thor" android:title="Thor"/>
+    </menu>
+    </item>
+    <item android:title="Close Application" android:id="@+id/close"/>
+</menu>
